@@ -1,0 +1,45 @@
+{
+    "election-1": {
+        "name": "2020 United States Presidential Election",
+        "type": "Presidential",
+        "year": 2020,
+        "polls": [
+            {
+                "date": "2020-11-03",
+                "pollster": "ABC News",
+                "type": "National",
+                "state": null,
+                "state-electors": null,
+                "survey-size": 1000,
+                "results": [
+                    {
+                        "candidate": "Donald Trump",
+                        "percentage": 48.9
+                    },
+                    {
+                        "candidate": "Joe Biden",
+                        "percentage": 51.1
+                    }
+                ]
+            },
+            {
+                "date": "2020-11-03",
+                "pollster": "NBC News",
+                "type": "State",
+                "state": "Florida",
+                "state-electors": 29,
+                "survey-size": 450,
+                "results": [
+                    {
+                        "candidate": "Donald Trump",
+                        "percentage": 49.5
+                    },
+                    {
+                        "candidate": "Joe Biden",
+                        "percentage": 50.5
+                    }
+                ]
+            }     
+        ]
+    }
+}
